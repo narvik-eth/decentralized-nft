@@ -5,7 +5,9 @@
     "test": "hardhat test",
     "deploy-local": "hardhat run scripts/deploy.ts --network local",
     "deploy-testnet": "hardhat run scripts/deploy.ts --network polygonMumbai",
-    "deploy": "hardhat run scripts/deploy.ts --network polygon"
+    "deploy": "hardhat run scripts/deploy.ts --network polygon",
+    "mint-testnet": "hardhat run scripts/mint.ts --network polygonMumbai",
+    "mint": "hardhat run scripts/mint.ts --network polygon"
   },
   "devDependencies": {
     "@nomiclabs/hardhat-ethers": "^2.0.4",
